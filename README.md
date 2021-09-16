@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Syh-practice
 - 👀 I’m interested in Web code.
-- 🌱 I’m currently learning HTML-5 , CSS3
+- 🌱 Currently learning HTML-5 , CSS3
 - 📫 How to reach me ...
 
 <!---
