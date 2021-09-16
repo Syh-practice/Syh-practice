@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>09_16 웹페이지 레이아웃</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans+Condensed:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Open+Sans+Condensed:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        /*선택자 {속성 : 속성값 ; 속성 : 속성값}*/
+        * {margin : 0;}                           /* 1. 전체선택자 __ * {속성 : 속성값 ; 속성 : 속성값}*/
+        header {background-color : #dddddd;    /* 2. 태그 선택자 __  태그명 {속성 : 속성값;}*/
+                width : 960px; 
+                margin : 0 auto;
+                position : relative; }  /*속성 부여한 상위 태그의 포지션이 상대적이게 만든다. */  
+                
+        footer {background-color : #aaaaaa;
+                width : 960px; 
+                margin : 0 auto;}
+
+        #contents {background-color : #eeeeeeaf;
+                  width : 960px; 
+                  margin : 0 auto; }              /* 3 아이디 선택자 __ #아이디명 {속성 : 속성값 ;} */
+
+
+        h1 {font-family: 'Dancing Script', cursive;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Pacifico', cursive;}  
+        h2 {font-family: 'Dancing Script', cursive;} 
+    
+    </style>
+</head>
+
+
+<body>
+    <header> <!-- Header -->
+        <div id = "header_title">
+            <h1>Digital Design</h1>   
+            <h2>HTML + CSS + Javascript</h2>
+            <h3>2021.09.16</h3>
+        </div> 
+        <nav id ="header_gnb">글로벌 메뉴</nav>
+        <nav id ="haader_lnb">로컬 메뉴</nav>
+    </header>
+    <div id = "contents">  콘텐츠</div>
+    <footer>푸터</footer>
+
+
+</body>
+
+
+</html>
