@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09_09 non-semantic / semantic tag practice </title>
+
+    <!-- 기본 CSS 블록  
+          태그 선택자 {속성 : 값;}  -->
+    <style>  
+     div {border : 1px solid blue ; height:300px;}
+     span {border : 1px solid red ; height : 200px; color : red;}
+     #header_id {background-color : gray ; }
+ /*id 부여된 요소만 선택해서 적용 #"id-name" */
+     header {
+             border : 1px solid ; 
+             height:100px; 
+             background-color : rgb(218, 211, 125) ;
+             }
+     *{margin : 0 ;}
+/*  *전체 선택자  */
+/*   margin 바깥쪽 여백 설정  */
+    </style>
+
+    <style>
+        input {border :0.5px solid blue ; width : 200px;}
+    </style>
+
+</head>
+
+<body>
+    <div id="header_id"> Header room </div>
+    <div id="contents_id"> Contents room </div>
+    <div id="footer_id"> Footer room </div>
+    <!-- Blcok type stack-->  
+    
+    <span id ="header_span"> Header </span>
+    <span id="contents_span"> Contents </span>
+    <span id="footer_span"> Footer </span>
+    <!-- In-line type stack-->
+
+    <header> Header_Semantic </header>
+    <footer> Footer_Semantic </footer>
+    <!-- Semantic -->
+
+
+ <!-- 입력 태그 양식-->
+    <form>
+        <input type = "text"  name="name"><br/>
+        <input type = "password"  name="password"><br/>
+        <input type = "file"  name="file"><br/>
+        <input type = "submit" >
+    </form>
+   
+</body>
+</html>
