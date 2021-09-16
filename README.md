@@ -1,5 +1,7 @@
 - 👋 Hi, I’m @Syh-practice
-- 👀 I’m interested in Web code.
+-    Major in wireless-telecommunication.
+-    
+- 👀 Interested in Web code.
 - 🌱 Currently learning HTML-5 , CSS3
 - 📫 How to reach me ...
 
